@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main header {
+	display: flex;
+}
+
+main > * {
+	margin: auto;
+	padding: 0 5rem;
+	max-width: 80rem;
+}
+
+#head1 {
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* #head1 h1 {
+	font-size: 3rem;
+} */
+
+#head2 {
+	justify-content: center;
+	gap: 30px;
+}
