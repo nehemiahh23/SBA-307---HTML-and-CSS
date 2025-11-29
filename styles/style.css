@@ -26,3 +26,33 @@ main > * {
 	justify-content: center;
 	gap: 30px;
 }
+
+#article-body {
+	display: flex;
+}
+
+.article {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.article:nth-child(2) {
+	flex: 2
+}
+
+.article img {
+	max-width: 308px;
+	min-height: 308px;
+}
+
+.article:nth-child(2) img {
+	max-width: 308px;
+	min-height: 421px;
+}
+
+.img-credit {
+	margin: 0;
+	align-self: flex-start;
+}
