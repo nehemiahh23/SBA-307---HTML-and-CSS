@@ -1,0 +1,74 @@
+body {
+	height: 100vh;
+	margin: 0;
+	background-color: #f5f5f5;
+}
+
+nav {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f8f9fa;
+}
+
+nav h1 {
+	margin: 0.5rem;
+}
+
+header {
+	display: flex;
+	padding-top: 53px;
+	justify-content: center;
+	background-color: #f8f9fa;
+	box-shadow: 0 1px 8px -3px gray;
+}
+
+header div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header div * {
+	margin: 0.5rem
+}
+
+fieldset {
+	margin: 0 auto;
+	padding: 3% 10%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 40%;
+	height: 100%;
+	border: none;
+	background-color: #fff;
+}
+
+fieldset input::placeholder {
+	z-index: 0;
+	font-size: 0.75rem;
+	color: gray; 
+	position: relative;
+	bottom: 15px;
+}
+
+fieldset input {
+	height: 50px;
+}
+
+fieldset select {
+	height: 56px;
+}
+
+fieldset div {
+	display: flex;
+	gap: 10px;
+}
+
+fieldset div * {
+	flex: 1;
+}
