@@ -1,0 +1,7 @@
+.red-hover .hover-target {
+	transition: 0.25s;
+}
+
+.red-hover:hover .hover-target {
+	color: #e7131a;
+}

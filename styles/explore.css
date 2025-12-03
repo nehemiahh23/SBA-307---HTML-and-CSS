@@ -1,4 +1,7 @@
 @import "./table.css";
+@import "./button2.css";
+@import "./a.css";
+@import "./hover.css";
 
 body {
 	margin: 0;
@@ -45,6 +48,53 @@ nav div:last-child {
 	margin-left: auto;
 }
 
+input[type="checkbox"] {
+	visibility: hidden;
+}
+
+/* .toggle {
+	position: absolute;
+	top: 0;
+	left: 0;
+} */
+
+label {
+	border: 1px solid black;
+	border-radius: 1.5rem;
+	padding: 0.45rem;
+	margin: 0.5rem;
+	transition: 0.25s;
+}
+
+label:hover {
+	background-color: black;
+	color: white;
+}
+
+label::after {
+	font-size: 1.5rem;
+	content: "+"
+}
+
+/* label input:checked label {
+	background-color: black;
+} */
+
+input[type="text"] {
+	border: none;
+	border-radius: 2px;
+	padding: 0.75rem;
+	margin-right: 0.5rem;
+}
+
+input[type="submit"] {
+	border: none;
+	border-radius: 2px;
+	background-color: black;
+	color: white;
+	padding: 0.75rem;
+}
+
 /* #endregion */
 
 #article-body {
@@ -52,7 +102,18 @@ nav div:last-child {
 	padding: 3% 0;
 }
 
-#article-body div:first-child {
+a {
+	color: black;
+	transition: 0.25s;
+}
+
+a:hover {
+	color: #e90606;
+}
+
+a img {
+	width: 25px;
+	height: 25px;
 }
 
 #thumbnail img {
