@@ -1,9 +1,5 @@
 @import "./a.css";
 
-#logo {
-	color: #e7131a;
-}
-
 a:hover {
 	text-decoration: none;
 }
@@ -99,6 +95,11 @@ input[type="submit"] {
 	border-radius: 3px;
 	color: #fff;
 	background-color: #e7131a;
+	transition: 0.25s;
+}
+
+input[type="submit"]:hover {
+	font-size: 1.3rem;
 }
 
 /* button:hover {
